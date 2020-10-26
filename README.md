@@ -1,2 +1,2 @@
 # iseeu
-iseeu ui framwork kit
+iseeu ui framework kit
