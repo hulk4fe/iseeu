@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ibuild-h5",
+    "build": "ibuild -m h5 -i src -o bundle",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -26,8 +26,8 @@
     "url": "https://github.com/me-hotel/iseeu/issues"
   },
   "homepage": "https://github.com/me-hotel/iseeu#readme",
-  "dependencies": {
-    "ibuild": "0.0.6"
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@me-hotel/ibuild": "^1.0.0"
+  }
 }
