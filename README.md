@@ -9,3 +9,6 @@ iseeu ui framework kit
 5. bundle just contain pure component code
 6. support tree-shaking
 7. need esm import
+
+#### todo list
+1. props check utils
